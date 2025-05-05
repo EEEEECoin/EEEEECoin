@@ -31,12 +31,7 @@
             border-radius: 50%;
             border: 5px solid #ffd700;
             margin-bottom: 20px;
-            animation: spin 10s infinite linear;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            /* Removed the spinning animation as requested */
         }
 
         h1 {
@@ -104,8 +99,8 @@
 </head>
 <body>
     <header>
-        <!-- Replace 'coin-image-url' with the actual URL of your uploaded EEEEE Coin image -->
-        <img src="coin-image-url" alt="EEEEE Coin">
+        <!-- Replace 'coin-image-url' with the actual URL of the uploaded EEEEE Coin image -->
+        <img src="coin-image-url" alt="EEEEE Coin Header Image">
         <h1>EEEEE Coin</h1>
         <div class="ticker">Ticker: $EEEEE</div>
     </header>
@@ -115,4 +110,16 @@
     </section>
 
     <section class="cta">
-        <a href="https://snek.fun" target="_blank">Mint EEEEE Coin on Snek.fun!</
+        <a href="https://snek.fun" target="_blank">Mint EEEEE Coin on Snek.fun!</a>
+    </section>
+
+    <footer>
+        <p>
+            Powered by <a href="https://snek.fun" target="_blank">Snek.fun</a> | 
+            Built on Cardano Blockchain | 
+            Follow us on <a href="https://x.com/eeeeecoin_ada" target="_blank">X (@eeeeecoin_ada)</a> | 
+            Contact us at <a href="mailto:EEEEECoin@gmail.com">EEEEECoin@gmail.com</a>
+        </p>
+    </footer>
+</body>
+</html>
