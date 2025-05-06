@@ -25,7 +25,15 @@
             border-bottom: 5px solid #ff69b4;
         }
 
-        /* Removed the header img CSS since the image is no longer present */
+        header img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #ffd700;
+            margin-bottom: 20px;
+            /* No spinning animation, as per previous request */
+        }
+
         h1 {
             font-size: 48px;
             color: #ffd700;
@@ -91,7 +99,8 @@
 </head>
 <body>
     <header>
-        <!-- Removed the <img> tag for the header image -->
+        <!-- Replace 'coin-image-url' with the actual URL of the uploaded EEEEE Coin image -->
+        <img src="coin-image-url" alt="EEEEE Coin Header Image">
         <h1>EEEEE Coin</h1>
         <div class="ticker">Ticker: $EEEEE</div>
     </header>
